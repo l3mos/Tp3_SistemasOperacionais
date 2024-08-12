@@ -8,7 +8,7 @@ Ao entregar este documento preenchido, os membros do grupo afirmam que todo o c�
 
 Preencha as linhas abaixo com o nome e o email dos integrantes do grupo. Substitua marcadores `XX` pela contribuição de cada membro do grupo no desenvolvimento do trabalho (os valores devem somar 100%).
 
-- **Gabriel Lemos** <gabriel.lemos@ufmg.br> - 34%
+- **Gabriel Eduardo Lemos dos Santos** <gabriel.lemos@ufmg.br> - 34%
 - **Emanuelly Carvalho** <evsrc@ufmg.br> - 33%
 - **Rafael Castro Araujo Beirão** <rafaelcb2017@ufmg.br> - 33%
 
