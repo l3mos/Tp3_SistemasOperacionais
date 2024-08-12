@@ -14,7 +14,10 @@ Preencha as linhas abaixo com o nome e o email dos integrantes do grupo. Substit
 
 ## 3. Referências Bibliográficas
 
-Adicione aqui as referências bibliográficas utilizadas.
+GeeksforGeeks. "Page Replacement Algorithms." Disponível em: https://www.geeksforgeeks.org/page-replacement-algorithms/.
+GeeksforGeeks. "Demand Paging." Disponível em: https://www.geeksforgeeks.org/demand-paging/. 
+GeeksforGeeks. "Introduction of Memory Management." Disponível em: https://www.geeksforgeeks.org/introduction-of-memory-management/.
+Material disponibilizado pelo professor.
 
 ## 4. Detalhes de Implementação
 
@@ -28,6 +31,14 @@ Adicione aqui as referências bibliográficas utilizadas.
   - Se a página foi modificada (`is_modified`)
   - Endereço virtual da página (`virtual_address`)
 - **Justificativa**: Facilita o mapeamento entre as páginas virtuais e os quadros físicos, além de rastrear modificações e alocação no disco.
+
+## 5. Resumo das alterações
+
+Implementação do algoritmo de segunda chance para substituição de páginas.
+Gerenciamento de memória física e disco com estruturas de dados otimizadas.
+Controle rigoroso de acesso e modificação de páginas, com tratamento de falhas de página.
+Sistema de log para registro de atividades de memória.
+Essas alterações e implementações garantem um gerenciamento eficiente e seguro da memória, com uma substituição de páginas que minimiza falhas e otimiza o uso dos recursos do sistema.
 
 #### `ProcessMemoryTable`
 - **Descrição**: Representa a tabela de páginas de um processo, contendo:
