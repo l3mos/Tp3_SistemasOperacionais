@@ -14,9 +14,9 @@ Preencha as linhas abaixo com o nome e o email dos integrantes do grupo. Substit
 
 ## 3. Referências Bibliográficas
 
-GeeksforGeeks. "Page Replacement Algorithms." Disponível em: https://www.geeksforgeeks.org/page-replacement-algorithms/.
-GeeksforGeeks. "Demand Paging." Disponível em: https://www.geeksforgeeks.org/demand-paging/. 
-GeeksforGeeks. "Introduction of Memory Management." Disponível em: https://www.geeksforgeeks.org/introduction-of-memory-management/.
+GeeksforGeeks. "Page Replacement Algorithms." Disponível em: https://www.geeksforgeeks.org/page-replacement-algorithms/.  
+GeeksforGeeks. "Demand Paging." Disponível em: https://www.geeksforgeeks.org/demand-paging/.  
+GeeksforGeeks. "Introduction of Memory Management." Disponível em: https://www.geeksforgeeks.org/introduction-of-memory-management/.  
 Material disponibilizado pelo professor.
 
 ## 4. Detalhes de Implementação
