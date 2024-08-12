@@ -14,7 +14,7 @@ Preencha as linhas abaixo com o nome e o email dos integrantes do grupo. Substit
 
 ## 3. Referências Bibliográficas
 
-GeeksforGeeks. Disponível em: https://www.geeksforgeeks.org/
+GeeksforGeeks. Disponível em: https://www.geeksforgeeks.org/.  
 Material disponibilizado pelo professor.
 
 ## 4. Detalhes de Implementação
