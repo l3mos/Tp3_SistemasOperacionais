@@ -104,3 +104,4 @@ Gerenciamento de memória física e disco com estruturas de dados otimizadas.
 Controle rigoroso de acesso e modificação de páginas, com tratamento de falhas de página.
 Sistema de log para registro de atividades de memória.
 Essas alterações e implementações garantem um gerenciamento eficiente e seguro da memória, com uma substituição de páginas que minimiza falhas e otimiza o uso dos recursos do sistema.
+Os resultados dos testes, executados utilizando o script grade.sh, foram armazenados na pasta "outputs". Esses resultados confirmam que o sistema de gerenciamento de memória foi implementado com sucesso, cumprindo os requisitos e objetivos propostos.
