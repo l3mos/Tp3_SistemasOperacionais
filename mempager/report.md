@@ -16,8 +16,6 @@
 3. Referências bibliográficas
 
 4. Detalhes de implementação
-
-4. Detalhes de implementação
     1. Estruturas de Dados Utilizadas
 PageEntry
 Descrição: Esta estrutura representa uma entrada na tabela de páginas de um processo. Contém informações sobre a validade da página (is_valid), o número do quadro associado (frame_number), o bloco de disco associado (disk_block), se a página foi modificada (is_modified), e o endereço virtual da página (virtual_address).
@@ -37,12 +35,12 @@ Justificativa: Facilita o mapeamento entre as páginas que foram trocadas para o
 DiskMemory
 Descrição: Estrutura que mantém o controle do armazenamento em disco, contendo o número total de blocos (total_blocks) e um array de DiskEntry que representa os blocos de disco.
 Justificativa: Essencial para gerenciar as páginas que foram movidas para o disco, permitindo recuperar essas páginas quando necessário.
-2. Mecanismo de Controle de Acesso e Modificação
+    2. Mecanismo de Controle de Acesso e Modificação
 Controle de Acesso: O controle de acesso às páginas é realizado através de flags e operações de proteção de memória (PROT_READ, PROT_WRITE, PROT_NONE). Quando ocorre uma falha de página, a função resolve_page_fault ajusta as permissões de acesso da página conforme necessário.
 
 Modificação de Páginas: A modificação das páginas é rastreada pela flag is_modified em PageEntry. Se uma página foi modificada, ela é escrita de volta ao disco antes de ser substituída. Isso é realizado na função swap_out_page, onde a página é escrita no disco se necessário.
 
-3. Descrição das Funções Principais
+    3. Descrição das Funções Principais
 pager_init
 Descrição: Inicializa as estruturas de dados necessárias para gerenciar a memória física e o disco. Aloca memória para as tabelas de quadros e blocos, além de configurar o ponteiro do relógio para o algoritmo de substituição.
 Justificativa: Esta função prepara todas as estruturas de dados necessárias antes que qualquer operação de paginação possa ser realizada.
