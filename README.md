@@ -41,5 +41,6 @@ Durante o desenvolvimento do projeto, as seguintes implementações e melhorias 
 
 Preencha as linhas abaixo com o nome e o email dos integrantes do grupo, juntamente com a porcentagem de contribuição de cada um:
 
-- **Nome1** <email1> - XX%
-- **Nome2** <email2> - XX%
+- **Gabriel Lemos** <gabriel.lemos@ufmg.br> - 34%
+- **Emanuelly Carvalho** <evsrc@ufmg.br> - 33%
+- **Rafael Castro Araujo Beirão** <rafaelcb2017@ufmg.br> - 33%
