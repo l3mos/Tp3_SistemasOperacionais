@@ -32,14 +32,6 @@ Material disponibilizado pelo professor.
   - Endereço virtual da página (`virtual_address`)
 - **Justificativa**: Facilita o mapeamento entre as páginas virtuais e os quadros físicos, além de rastrear modificações e alocação no disco.
 
-## 5. Resumo das alterações
-
-Implementação do algoritmo de segunda chance para substituição de páginas.
-Gerenciamento de memória física e disco com estruturas de dados otimizadas.
-Controle rigoroso de acesso e modificação de páginas, com tratamento de falhas de página.
-Sistema de log para registro de atividades de memória.
-Essas alterações e implementações garantem um gerenciamento eficiente e seguro da memória, com uma substituição de páginas que minimiza falhas e otimiza o uso dos recursos do sistema.
-
 #### `ProcessMemoryTable`
 - **Descrição**: Representa a tabela de páginas de um processo, contendo:
   - Array de `PageEntry`
@@ -106,3 +98,11 @@ Essas alterações e implementações garantem um gerenciamento eficiente e segu
 #### `pager_destroy`
 - **Descrição**: Libera todos os recursos alocados para um processo específico, removendo suas páginas da memória física e liberando os blocos de disco associados.
 - **Justificativa**: Necessário para evitar vazamentos de memória e garantir que os recursos de memória e disco sejam reutilizados quando um processo termina.
+
+## 5. Resumo das alterações
+
+Implementação do algoritmo de segunda chance para substituição de páginas.
+Gerenciamento de memória física e disco com estruturas de dados otimizadas.
+Controle rigoroso de acesso e modificação de páginas, com tratamento de falhas de página.
+Sistema de log para registro de atividades de memória.
+Essas alterações e implementações garantem um gerenciamento eficiente e seguro da memória, com uma substituição de páginas que minimiza falhas e otimiza o uso dos recursos do sistema.
