@@ -39,7 +39,6 @@ Justificativa: Essencial para gerenciar as páginas que foram movidas para o dis
 Controle de Acesso: O controle de acesso às páginas é realizado através de flags e operações de proteção de memória (PROT_READ, PROT_WRITE, PROT_NONE). Quando ocorre uma falha de página, a função resolve_page_fault ajusta as permissões de acesso da página conforme necessário.
 
 Modificação de Páginas: A modificação das páginas é rastreada pela flag is_modified em PageEntry. Se uma página foi modificada, ela é escrita de volta ao disco antes de ser substituída. Isso é realizado na função swap_out_page, onde a página é escrita no disco se necessário.
-
     3. Descrição das Funções Principais
 pager_init
 Descrição: Inicializa as estruturas de dados necessárias para gerenciar a memória física e o disco. Aloca memória para as tabelas de quadros e blocos, além de configurar o ponteiro do relógio para o algoritmo de substituição.
